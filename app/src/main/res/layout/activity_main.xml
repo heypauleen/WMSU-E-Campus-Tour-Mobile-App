@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="262dp"
+        android:layout_height="73dp"
+        android:background="@drawable/my_button_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:text="Get Started!"
+        android:fontFamily="@font/cocogoose"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

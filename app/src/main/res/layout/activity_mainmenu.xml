@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/pagetwobg"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/bgbutton1"
+            android:text="About Us"
+            android:id="@+id/buttonAboutUs"
+            android:fontFamily="@font/cocogoose"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/bgbutton2"
+            android:text="Admission"
+            android:fontFamily="@font/cocogoose"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:id="@+id/btnadmission"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/bgbutton3"
+            android:text="Take A Tour!"
+            android:fontFamily="@font/cocogoose"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/bgbutton4"
+            android:text="Take A Quiz"
+            android:fontFamily="@font/cocogoose"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
